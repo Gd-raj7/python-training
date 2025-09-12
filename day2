@@ -1,0 +1,10 @@
+# Create dictionary
+student = {
+    "name": "Rahul",
+    "age": 21,
+    "skills": ["Python", "ML", "SQL"]
+}
+
+print(student["name"])       # Rahul
+student["age"] = 22          # update value
+student["grade"] = "A"       # add new key-value
